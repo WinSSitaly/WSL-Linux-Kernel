@@ -17,7 +17,7 @@ make clean</br>
 make KCONFIG_CONFIG=.config -j8</br>
 #ready to copy to windows path</br>
 #cp arch/x86/boot/bzImage /mnt/c/Users/username/bzImage_$version</br>
-#cp /mnt/c/Users/username/bzImage_$versione /mnt/c/Users/username/bzImage-test</br>
+#cp /mnt/c/Users/username/bzImage_$version /mnt/c/Users/username/bzImage-test</br>
 </br>
 #you must change username with your windows user</br>
 #and of course you must create if not exist a file .wslconfig with kernel = c:\\users\\username\\bzImage_5.11-rc7</br>
