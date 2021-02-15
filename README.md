@@ -1,8 +1,8 @@
 # WSL-Linux-Kernel
 My Experiment on WSL Linux Kernel
 
-#!/bin/bash
-read -p "Input version number :  " version
+#!/bin/bash</br>
+read -p "Input version number :  " version</br>
 echo "Compile my version linux-$version!"
 mv /mnt/c/Users/<username>/bzImage-test /mnt/c/Users/<username>/bzImage_pre-$versione
 #last version=5.11-rc7
