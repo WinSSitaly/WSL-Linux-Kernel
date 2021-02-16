@@ -21,4 +21,4 @@ make KCONFIG_CONFIG=.config -j8</br>
 </br>
 #you must change username with your windows user</br>
 #and of course you must create if not exist a file .wslconfig with kernel = c:\\users\\username\\bzImage_5.11-rc7</br>
-#2021 02 16 UTC+1 
+#2021 02 16 11:05 UTC+1 
