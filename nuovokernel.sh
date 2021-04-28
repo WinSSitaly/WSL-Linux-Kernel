@@ -1,17 +1,23 @@
 #!/bin/bash
-DIR=$PWD
 DIRWSL="/mnt/c/wslconfig"
 DIR="$PWD"
-if [ !-d "$DIRWSL" ]; then
-     mkdir $DIRWSL
+if [ -d "$DIRWSL" ]; then
+echo $DIRWSL esiste
+else
+mkdir $DIRWSL
 fi
 cd $DIR
-wget https://github.com/WinSSitaly/WSL-Linux-Kernel/.wslconfig
+wget https://github.com/WinSSitaly/WSL-Linux-Kernel/raw/main/.wslconfig
+#wget https://github.com/WinSSitaly/WSL-Linux-Kernel/.wslconfig
 cp .wslconfig /mnt/c/wslconfig/.wslconfig
 read -p "Enter version number :  " versione
-#se esiste muovi
+if [ -f "/mnt/c/wslconfig/bzImage-test" ]; then
 mv /mnt/c/wslconfig/bzImage-test /mnt/c/wslconfig/bzImage_pre-$versione
-#versione=5.12-rc7_progress
+else
+echo "non esiste bzImage-test"
+fi
+
+#versione=5.12_latest
 #scarica official wsl2
 #git clone https://github.com/microsoft/WSL2-Linux-Kernel
 #git clone https://github.com/nathanchance/WSL2-Linux-Kernel
@@ -34,7 +40,7 @@ done < <(find "$searchDir" -maxdepth 1 -type d -print0 2> /dev/null)
 
 if [[ ${#Utenti[@]} -ne 0 ]]; then
     for utente in "${Utenti[@]}"; do
-    cp .wslconfig $utente/.wslconfig >> null
+    cp .wslconfig $utente/.wslconfig 
     #echo $utente
     done
 fi
@@ -45,5 +51,4 @@ make clean
 make KCONFIG_CONFIG=.config -j8
 cp arch/x86/boot/bzImage /mnt/c/wslconfig/bzImage_$versione
 cp /mnt/c/wslconfig/bzImage_$versione /mnt/c/wslconfig/bzImage-test
-cd ~/Esperimenti
-
+cd $DIR
