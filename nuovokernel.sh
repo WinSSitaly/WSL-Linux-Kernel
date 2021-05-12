@@ -24,12 +24,14 @@ fi
 
 if [[ $versione == *"rc"* ]]; then
 echo "Compilo la versione release candidate linux-$versione!"
-wget https://git.kernel.org/torvalds/t/linux-$versione.tar.gz
-tar -xzvf linux-$versione.tar.gz
+#wget https://git.kernel.org/torvalds/t/linux-$versione.tar.gz
+#tar -xzvf linux-$versione.tar.gz
+cp $DIR/WSL2-Linux-Kernel/.configrc $DIR/linux-$versione/.config
 else
 echo "Compilo la versione stabile linux-$versione!"
 wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-$versione.tar.xz
 tar -xf linux-$versione.tar.xz
+cp $DIR/WSL2-Linux-Kernel/.config $DIR/linux-$versione/
 fi
 
 searchDir="/mnt/c/Users/"
@@ -46,7 +48,7 @@ if [[ ${#Utenti[@]} -ne 0 ]]; then
 fi
 cd $DIR
 cd linux-$versione
-cp ../WSL2-Linux-Kernel/.config ./
+rm cp ../WSL2-Linux-Kernel/.config ./
 make clean
 make KCONFIG_CONFIG=.config -j8
 cp arch/x86/boot/bzImage /mnt/c/wslconfig/bzImage_$versione
