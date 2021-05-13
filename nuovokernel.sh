@@ -24,16 +24,16 @@ fi
 
 if [[ $versione == *"rc"* ]]; then
 echo "Compilo la versione release candidate linux-$versione!"
-#wget https://git.kernel.org/torvalds/t/linux-$versione.tar.gz
-#tar -xzvf linux-$versione.tar.gz
-wget https://github.com/WinSSitaly/WSL-Linux-Kernel/blob/main/mywsl-configrc -O .config
+wget https://git.kernel.org/torvalds/t/linux-$versione.tar.gz
+tar -xzvf linux-$versione.tar.gz
+wget https://github.com/WinSSitaly/WSL-Linux-Kernel/raw/main/mywsl-configrc -O .config
 #cp $DIR/WSL2-Linux-Kernel/.configrc $DIR/linux-$versione/.config
 else
 echo "Compilo la versione stabile linux-$versione!"
-#wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-$versione.tar.xz
-#tar -xf linux-$versione.tar.xz
+wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-$versione.tar.xz
+tar -xf linux-$versione.tar.xz
 #cp $DIR/WSL2-Linux-Kernel/.config $DIR/linux-$versione/
-wget https://github.com/WinSSitaly/WSL-Linux-Kernel/blob/main/mywsl-config -O .config
+wget https://github.com/WinSSitaly/WSL-Linux-Kernel/raw/main/mywsl-config -O .config
 fi
 
 searchDir="/mnt/c/Users/"
@@ -44,15 +44,21 @@ done < <(find "$searchDir" -maxdepth 1 -type d -print0 2> /dev/null)
 
 if [[ ${#Utenti[@]} -ne 0 ]]; then
     for utente in "${Utenti[@]}"; do
-    cp .wslconfig $utente/.wslconfig 
-    #echo $utente
-    done
+    if [ "$(stat -c '%a' $utente)" == "777" ]
+			then
+				cp .wslconfig $utente/.wslconfig
+				echo .wslconfig copiato in $utente
+			#else
+			#	echo $utente con permessi insufficienti
+	fi
+	done
 fi
 cd $DIR
 cd linux-$versione
-#cp ../WSL2-Linux-Kernel/.config ./
+cp ../.config ./
 make clean
 make KCONFIG_CONFIG=.config -j8
 cp arch/x86/boot/bzImage /mnt/c/wslconfig/bzImage_$versione
+cp .config ../
 cp /mnt/c/wslconfig/bzImage_$versione /mnt/c/wslconfig/bzImage-test
 cd $DIR
