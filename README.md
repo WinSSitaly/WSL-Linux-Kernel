@@ -1,24 +1,13 @@
 # WSL-Linux-Kernel
+
 My Experiment on WSL Linux Kernel
 
-#!/bin/bash</br>
-read -p "Input version number :  " version</br>
-echo "Compile my version linux-$version!"</br>
-mv /mnt/c/Users/username/bzImage-test /mnt/c/Users/username/bzImage_pre-$version</br>
-#last version=5.11-rc7</br>
-</br>
-#git clone https://github.com/microsoft/WSL2-Linux-Kernel</br>
-git clone https://github.com/nathanchance/WSL2-Linux-Kernel</br>
-wget https://git.kernel.org/torvalds/t/linux-$versione.tar.gz</br>
-tar -xzvf linux-$version.tar.gz</br>
-cd linux-$version</br>
-cp ../WSL2-Linux-Kernel/.config ./</br>
-make clean</br>
-make KCONFIG_CONFIG=.config -j8</br>
-#ready to copy to windows path</br>
-#cp arch/x86/boot/bzImage /mnt/c/Users/username/bzImage_$version</br>
-#cp /mnt/c/Users/username/bzImage_$version /mnt/c/Users/username/bzImage-test</br>
-</br>
-#you must change username with your windows user</br>
-#and of course you must create if not exist a file .wslconfig with kernel = c:\\users\\username\\bzImage_5.11-rc7</br>
-#2021 02 16 11:05 UTC+1 
+The goal of this experimenti is to create a script (nuovokernel.sh) that download the request version of the source kernel fromthe official site and using the suggest .config compile a new version of WSL with latest kernel patches.
+
+It will create a new bzImage-test in the folder c:\wslconfig and linked it from active windows user profile.
+
+Any suggest or commit will be accepted.
+
+In Releases there is my compiled kernel and also the needed files to create your own in sources.zip
+
+
