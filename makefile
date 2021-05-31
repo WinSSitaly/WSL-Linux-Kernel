@@ -1,4 +1,4 @@
 git:
-    git add .
-    git commit -m "$m"
-    git push -u origin main
+	git add .
+	git commit -m "$m"
+	git push -u origin main
