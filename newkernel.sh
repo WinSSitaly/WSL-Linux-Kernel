@@ -27,7 +27,7 @@ tar -xzvf linux-$version.tar.gz
 wget https://github.com/WinSSitaly/WSL-Linux-Kernel/raw/main/mywsl-configrc -O .config
 else
 echo "Compiling stable version linux-$version!"
-wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-$version.tar.xz
+wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-$version.tar.xz
 tar -xf linux-$version.tar.xz
 wget https://github.com/WinSSitaly/WSL-Linux-Kernel/raw/main/mywsl-config -O .config
 fi
