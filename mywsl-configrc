@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.14.0-rc5 Kernel Configuration
+# Linux/x86 5.14.0-rc6 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0"
 CONFIG_CC_IS_GCC=y
@@ -868,7 +868,6 @@ CONFIG_BLK_MQ_VIRTIO=y
 # IO Schedulers
 #
 CONFIG_MQ_IOSCHED_DEADLINE=y
-CONFIG_MQ_IOSCHED_DEADLINE_CGROUP=y
 # CONFIG_MQ_IOSCHED_KYBER is not set
 # CONFIG_IOSCHED_BFQ is not set
 # end of IO Schedulers
