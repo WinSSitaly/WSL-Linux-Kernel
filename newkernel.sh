@@ -16,7 +16,7 @@ else
 echo "no yet any bzImage-test"
 fi
 
-#version=5.12.7
+#version=5.13.13
 #if you want to download the official microsoft wsl2 tree
 #git clone https://github.com/microsoft/WSL2-Linux-Kernel
 
