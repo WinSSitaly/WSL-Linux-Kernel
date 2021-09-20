@@ -12,9 +12,9 @@ Starting from Releases Kernel 5.12.3_OK it will be available my compiled kernel 
 
 Hope you will enjoy my job.
 
-I just prepare 3 different config file to compile kernel
+I just prepare 4 different config file to compile kernel
 
-- mywsl-config is done for stable release
+- mywsl-config13 is done for stable release 5.13.X
+- mywsl-config14 is done for stable release 5.14.X
 - mywsl-configrc is done for release candidate
-- mywsl-configlt is done for longterm release 
-
+- mywsl-configlt is done for longterm release 5.10.X
