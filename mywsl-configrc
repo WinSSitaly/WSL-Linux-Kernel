@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.15.0-rc2 Kernel Configuration
+# Linux/x86 5.15.0-rc3 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0"
 CONFIG_CC_IS_GCC=y
@@ -3367,7 +3367,6 @@ CONFIG_DAX=y
 # CONFIG_DEV_DAX_HMEM is not set
 CONFIG_NVMEM=y
 CONFIG_NVMEM_SYSFS=y
-CONFIG_NVMEM_NINTENDO_OTP=y
 CONFIG_NVMEM_RMEM=y
 
 #
