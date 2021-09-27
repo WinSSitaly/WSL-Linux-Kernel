@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.14.7 Kernel Configuration
+# Linux/x86 5.14.8 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0"
 CONFIG_CC_IS_GCC=y
@@ -2961,8 +2961,6 @@ CONFIG_RTC_DRV_GOLDFISH=y
 # DMABUF options
 #
 # CONFIG_SYNC_FILE is not set
-CONFIG_DMABUF_MOVE_NOTIFY=y
-CONFIG_DMABUF_DEBUG=y
 # CONFIG_DMABUF_HEAPS is not set
 # end of DMABUF options
 
