@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.15.0-rc4 Kernel Configuration
+# Linux/x86 5.15.0-rc5 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0"
 CONFIG_CC_IS_GCC=y
@@ -604,57 +604,6 @@ CONFIG_COMPAT=y
 CONFIG_COMPAT_FOR_U64_ALIGNMENT=y
 CONFIG_SYSVIPC_COMPAT=y
 # end of Binary Emulations
-
-#
-# Firmware Drivers
-#
-
-#
-# ARM System Control and Management Interface Protocol
-#
-# end of ARM System Control and Management Interface Protocol
-
-# CONFIG_EDD is not set
-CONFIG_FIRMWARE_MEMMAP=y
-# CONFIG_DMIID is not set
-# CONFIG_DMI_SYSFS is not set
-CONFIG_DMI_SCAN_MACHINE_NON_EFI_FALLBACK=y
-# CONFIG_ISCSI_IBFT is not set
-# CONFIG_FW_CFG_SYSFS is not set
-CONFIG_SYSFB=y
-CONFIG_SYSFB_SIMPLEFB=y
-# CONFIG_GOOGLE_FIRMWARE is not set
-
-#
-# EFI (Extensible Firmware Interface) Support
-#
-# CONFIG_EFI_VARS is not set
-CONFIG_EFI_ESRT=y
-CONFIG_EFI_VARS_PSTORE=y
-# CONFIG_EFI_VARS_PSTORE_DEFAULT_DISABLE is not set
-# CONFIG_EFI_FAKE_MEMMAP is not set
-CONFIG_EFI_SOFT_RESERVE=y
-CONFIG_EFI_RUNTIME_WRAPPERS=y
-CONFIG_EFI_GENERIC_STUB_INITRD_CMDLINE_LOADER=y
-# CONFIG_EFI_BOOTLOADER_CONTROL is not set
-# CONFIG_EFI_CAPSULE_LOADER is not set
-# CONFIG_EFI_TEST is not set
-# CONFIG_APPLE_PROPERTIES is not set
-CONFIG_RESET_ATTACK_MITIGATION=y
-# CONFIG_EFI_RCI2_TABLE is not set
-# CONFIG_EFI_DISABLE_PCI_DMA is not set
-# end of EFI (Extensible Firmware Interface) Support
-
-CONFIG_UEFI_CPER=y
-CONFIG_UEFI_CPER_X86=y
-CONFIG_EFI_EARLYCON=y
-CONFIG_EFI_CUSTOM_SSDT_OVERLAYS=y
-
-#
-# Tegra firmware driver
-#
-# end of Tegra firmware driver
-# end of Firmware Drivers
 
 CONFIG_HAVE_KVM=y
 CONFIG_HAVE_KVM_IRQCHIP=y
@@ -1735,6 +1684,58 @@ CONFIG_REGMAP_IRQ=y
 
 CONFIG_CONNECTOR=y
 CONFIG_PROC_EVENTS=y
+
+#
+# Firmware Drivers
+#
+
+#
+# ARM System Control and Management Interface Protocol
+#
+# end of ARM System Control and Management Interface Protocol
+
+# CONFIG_EDD is not set
+CONFIG_FIRMWARE_MEMMAP=y
+# CONFIG_DMIID is not set
+# CONFIG_DMI_SYSFS is not set
+CONFIG_DMI_SCAN_MACHINE_NON_EFI_FALLBACK=y
+# CONFIG_ISCSI_IBFT is not set
+# CONFIG_FW_CFG_SYSFS is not set
+CONFIG_SYSFB=y
+CONFIG_SYSFB_SIMPLEFB=y
+# CONFIG_GOOGLE_FIRMWARE is not set
+
+#
+# EFI (Extensible Firmware Interface) Support
+#
+# CONFIG_EFI_VARS is not set
+CONFIG_EFI_ESRT=y
+CONFIG_EFI_VARS_PSTORE=y
+# CONFIG_EFI_VARS_PSTORE_DEFAULT_DISABLE is not set
+# CONFIG_EFI_FAKE_MEMMAP is not set
+CONFIG_EFI_SOFT_RESERVE=y
+CONFIG_EFI_RUNTIME_WRAPPERS=y
+CONFIG_EFI_GENERIC_STUB_INITRD_CMDLINE_LOADER=y
+# CONFIG_EFI_BOOTLOADER_CONTROL is not set
+# CONFIG_EFI_CAPSULE_LOADER is not set
+# CONFIG_EFI_TEST is not set
+# CONFIG_APPLE_PROPERTIES is not set
+CONFIG_RESET_ATTACK_MITIGATION=y
+# CONFIG_EFI_RCI2_TABLE is not set
+# CONFIG_EFI_DISABLE_PCI_DMA is not set
+# end of EFI (Extensible Firmware Interface) Support
+
+CONFIG_UEFI_CPER=y
+CONFIG_UEFI_CPER_X86=y
+CONFIG_EFI_EARLYCON=y
+CONFIG_EFI_CUSTOM_SSDT_OVERLAYS=y
+
+#
+# Tegra firmware driver
+#
+# end of Tegra firmware driver
+# end of Firmware Drivers
+
 # CONFIG_GNSS is not set
 # CONFIG_MTD is not set
 # CONFIG_OF is not set
