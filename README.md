@@ -18,5 +18,5 @@ I just prepare different config file to compile different version kernel
 - mywsl-config14 is done for stable release 5.14.X EOL
 - mywsl-config14 is done for stable release 5.15.X 
 - mywsl-config14 is done for stable release 5.16.X 
-- mywsl-configrc is done for release candidate
+- mywsl-configrc is done for release candidate (actually 5.17.X)
 - mywsl-configlt is done for longterm release 5.10.X
