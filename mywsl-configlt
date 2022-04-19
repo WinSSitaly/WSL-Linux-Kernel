@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.10.109 Kernel Configuration
+# Linux/x86 5.10.110 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0"
 CONFIG_CC_IS_GCC=y
@@ -2365,7 +2365,6 @@ CONFIG_VHOST_VDPA=y
 #
 CONFIG_HYPERV=y
 CONFIG_HYPERV_TIMER=y
-CONFIG_HYPERV_UTILS=y
 CONFIG_HYPERV_BALLOON=y
 # end of Microsoft Hyper-V guest support
 
