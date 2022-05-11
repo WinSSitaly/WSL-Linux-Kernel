@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.10.113 Kernel Configuration
+# Linux/x86 5.10.114 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0"
 CONFIG_CC_IS_GCC=y
@@ -1961,7 +1961,6 @@ CONFIG_HYPERV_NET=y
 # CONFIG_NETDEVSIM is not set
 CONFIG_NET_FAILOVER=y
 # CONFIG_ISDN is not set
-# CONFIG_NVM is not set
 
 #
 # Input device support
