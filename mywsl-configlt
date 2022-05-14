@@ -1,10 +1,10 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.10.114 Kernel Configuration
+# Linux/x86 5.10.115 Kernel Configuration
 #
-CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0"
+CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
 CONFIG_CC_IS_GCC=y
-CONFIG_GCC_VERSION=90300
+CONFIG_GCC_VERSION=90400
 CONFIG_LD_VERSION=234000000
 CONFIG_CLANG_VERSION=0
 CONFIG_LLD_VERSION=0
