@@ -1,10 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-<<<<<<< HEAD
 # Linux/x86 5.18.0 Kernel Configuration
-=======
-# Linux/x86 5.18.0-rc7 Kernel Configuration
->>>>>>> 3e4bd531111fa9ce1587ec60621d738755d05032
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
 CONFIG_CC_IS_GCC=y
