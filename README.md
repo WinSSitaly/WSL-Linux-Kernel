@@ -21,4 +21,4 @@ I just prepare different config file to compile different version kernel
 - myswl-config17 is made for stable release 5.17.X
 - myswl-config17 is made for stable release 5.18.X
 - mywsl-configrc is made for release candidate (latest 5.18.Xrc) [work in progress]
-- mywsl-configlt is madee for longterm release 5.10.X
+- mywsl-configlt is made for longterm release 5.10.X
