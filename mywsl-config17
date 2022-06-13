@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.17.13 Kernel Configuration
+# Linux/x86 5.17.14 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
 CONFIG_CC_IS_GCC=y
@@ -1767,6 +1767,7 @@ CONFIG_UEFI_CPER=y
 CONFIG_UEFI_CPER_X86=y
 CONFIG_EFI_EARLYCON=y
 CONFIG_EFI_CUSTOM_SSDT_OVERLAYS=y
+CONFIG_EFI_DISABLE_RUNTIME=y
 
 #
 # Tegra firmware driver
