@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.10.123 Kernel Configuration
+# Linux/x86 5.10.124 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
 CONFIG_CC_IS_GCC=y
@@ -2085,10 +2085,9 @@ CONFIG_NVRAM=y
 # CONFIG_TCG_TPM is not set
 # CONFIG_TELCLOCK is not set
 # CONFIG_XILLYBUS is not set
-# end of Character devices
-
 CONFIG_RANDOM_TRUST_CPU=y
 # CONFIG_RANDOM_TRUST_BOOTLOADER is not set
+# end of Character devices
 
 #
 # I2C support
@@ -3125,6 +3124,7 @@ CONFIG_CRYPTO_LIB_CHACHA20POLY1305=y
 CONFIG_CRYPTO_LIB_SHA256=y
 # end of Crypto library routines
 
+CONFIG_LIB_MEMNEQ=y
 CONFIG_CRC_CCITT=y
 CONFIG_CRC16=y
 # CONFIG_CRC_T10DIF is not set
