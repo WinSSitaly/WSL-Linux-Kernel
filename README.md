@@ -23,3 +23,11 @@ I just prepare different config file to compile different version kernel
 - mywsl-config19 is made for stable release 5.19.X
 - mywsl-configrc is made for releanse candidate 6.0-rcX 
 - mywsl-configlt is made for longterm release 5.10.X
+
+After compile kernel
+if you want to add modules
+must run
+
+- make modules
+
+- sudo make modules_install
