@@ -21,8 +21,11 @@ I just prepare different config file to compile different version kernel
 - myswl-config17 is made for stable release 5.17.X EOL
 - myswl-config18 is made for stable release 5.18.X EOL
 - mywsl-config19 is made for stable release 5.19.X
-- mywsl-configrc is made for release candidate 6.0-rcX 
+- mywsl-configrc is made for release candidate (expecting new release candidate) 
 - mywsl-configlt is made for longterm release 5.10.X
+
+- mywsl-config0 is made for latest stable release 6.0.X (first release 2022-10-02)
+
 
 After compile kernel
 if you want to add modules
