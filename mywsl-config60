@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 6.0.0 Kernel Configuration
+# Linux/x86 6.0.3 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
 CONFIG_CC_IS_GCC=y
@@ -2911,6 +2911,7 @@ CONFIG_HID_HYPERV_MOUSE=y
 # CONFIG_HID_SMARTJOYPLUS is not set
 # CONFIG_HID_TIVO is not set
 # CONFIG_HID_TOPSEED is not set
+CONFIG_HID_TOPRE=y
 # CONFIG_HID_THRUSTMASTER is not set
 # CONFIG_HID_UDRAW_PS3 is not set
 # CONFIG_HID_WACOM is not set
@@ -4356,6 +4357,7 @@ CONFIG_DEBUG_KERNEL=y
 #
 # Compile-time checks and compiler options
 #
+CONFIG_AS_HAS_NON_CONST_LEB128=y
 CONFIG_DEBUG_INFO_NONE=y
 # CONFIG_DEBUG_INFO_DWARF_TOOLCHAIN_DEFAULT is not set
 # CONFIG_DEBUG_INFO_DWARF4 is not set
