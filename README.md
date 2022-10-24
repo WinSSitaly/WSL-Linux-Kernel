@@ -14,18 +14,19 @@ Hope you will enjoy my job.
 
 I just prepare different config file to compile different version kernel
 
-- mywsl-config13 is made for stable release 5.13.X EOL
-- mywsl-config14 is made for stable release 5.14.X EOL
-- mywsl-config15 is made for stable release 5.15.X 
-- mywsl-config16 is made for stable release 5.16.X EOL
-- myswl-config17 is made for stable release 5.17.X EOL
-- myswl-config18 is made for stable release 5.18.X EOL
-- mywsl-config19 is made for stable release 5.19.X
-- mywsl-configrc is made for release candidate (expecting new release candidate) 
+- mywsl-config513-EOL is made for stable release 5.13.X EOL
+- mywsl-config14-EOL is made for stable release 5.14.X EOL
+- mywsl-config515 is made for stable release 5.15.X 
+- mywsl-config516-EOL is made for stable release 5.16.X EOL
+- myswl-config517-EOL is made for stable release 5.17.X EOL
+- myswl-config518-EOL is made for stable release 5.18.X EOL
+- mywsl-config519 is made for stable release 5.19.X
+
+- mywsl-config60 is made for stable release 6.0.X
+
+- mywsl-configrc is made for release candidate 6.1-rc. 
+
 - mywsl-configlt is made for longterm release 5.10.X
-
-- mywsl-config0 is made for latest stable release 6.0.X (first release 2022-10-02)
-
 
 After compile kernel
 if you want to add modules
