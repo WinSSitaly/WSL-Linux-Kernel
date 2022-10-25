@@ -15,12 +15,12 @@ Hope you will enjoy my job.
 I just prepare different config file to compile different version kernel
 
 - mywsl-config513-EOL is made for stable release 5.13.X EOL
-- mywsl-config14-EOL is made for stable release 5.14.X EOL
+- mywsl-config514-EOL is made for stable release 5.14.X EOL
 - mywsl-config515 is made for stable release 5.15.X 
 - mywsl-config516-EOL is made for stable release 5.16.X EOL
 - myswl-config517-EOL is made for stable release 5.17.X EOL
 - myswl-config518-EOL is made for stable release 5.18.X EOL
-- mywsl-config519 is made for stable release 5.19.X
+- mywsl-config519-EOL is made for stable release 5.19.X EOL
 
 - mywsl-config60 is made for stable release 6.0.X
 
