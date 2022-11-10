@@ -1,6 +1,8 @@
 #!/bin/bash
 DIRWSL="/mnt/c/wslconfig"
 DIR="$PWD"
+DIRgh=$DIR/ciao
+
 if [ -d "$DIRWSL" ]; then
 echo $DIRWSL esiste
 else
@@ -70,4 +72,15 @@ fi
 
 cp .config /mnt/c/wslconfig/
 cp /mnt/c/wslconfig/bzImage_$versione /mnt/c/wslconfig/bzImage-test
+
+cp .config /mnt/c/wslconfig/mywsl-configlt
+cp .config $DIRgh/WSL-Linux-Kernel/mywsl-configlt
+
+
+
+cd $DIRgh/WSL-Linux-Kernel/
+make git m="longterm $versione"
+
 cd $DIR
+
+
