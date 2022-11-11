@@ -59,7 +59,6 @@ cp .config /mnt/c/wslconfig/mywsl-configlt
 
 cp /mnt/c/wslconfig/bzImage_$versione /mnt/c/wslconfig/bzImage-test
 
-cp .config /mnt/c/wslconfig/mywsl-configlt
 cp .config $DIRgh/WSL-Linux-Kernel/mywsl-configlt
 
 cd $DIRgh/WSL-Linux-Kernel/
