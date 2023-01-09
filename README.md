@@ -25,7 +25,7 @@ I just prepare different config file to compile different version kernel
 - mywsl-config60 is made for stable release 6.0.X
 - mywsl-config61 is made for stable release 6.1.X
 
-- mywsl-configrc is made for release candidate (will be 6.2rc) 
+- mywsl-configrc is made for release candidate 6.2rc 
 
 - mywsl-configlt is made for longterm release 5.10.X
 
