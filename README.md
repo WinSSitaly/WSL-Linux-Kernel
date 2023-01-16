@@ -21,8 +21,8 @@ I just prepare different config file to compile different version kernel
 - myswl-config517-EOL is made for stable release 5.17.X EOL
 - myswl-config518-EOL is made for stable release 5.18.X EOL
 - mywsl-config519-EOL is made for stable release 5.19.X EOL
+- mywsl-config60 is made for stable release 6.0.X EOL
 
-- mywsl-config60 is made for stable release 6.0.X
 - mywsl-config61 is made for stable release 6.1.X
 
 - mywsl-configrc is made for release candidate 6.2rc 
