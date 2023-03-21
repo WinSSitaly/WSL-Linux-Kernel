@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 6.3.0-rc1 Kernel Configuration
+# Linux/x86 6.3.0-rc3 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0"
 CONFIG_CC_IS_GCC=y
@@ -848,7 +848,6 @@ CONFIG_EFI_PARTITION=y
 # CONFIG_CMDLINE_PARTITION is not set
 # end of Partition Types
 
-CONFIG_BLOCK_COMPAT=y
 CONFIG_BLK_MQ_PCI=y
 CONFIG_BLK_MQ_VIRTIO=y
 CONFIG_BLOCK_HOLDER_DEPRECATED=y
@@ -2044,6 +2043,7 @@ CONFIG_NET_VENDOR_WANGXUN=y
 # CONFIG_NET_VENDOR_MICROSEMI is not set
 # CONFIG_NET_VENDOR_MICROSOFT is not set
 # CONFIG_NET_VENDOR_MYRI is not set
+# CONFIG_FEALNX is not set
 # CONFIG_NET_VENDOR_NI is not set
 # CONFIG_NET_VENDOR_NATSEMI is not set
 # CONFIG_NET_VENDOR_NETERION is not set
