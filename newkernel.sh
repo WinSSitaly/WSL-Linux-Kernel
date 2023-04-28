@@ -66,7 +66,7 @@ cd $DIR
 cd linux-$version
 cp ../.config ./
 make clean
-make KCONFIG_CONFIG=.config -j64
+make KCONFIG_CONFIG=.config -j32
 cp arch/x86/boot/bzImage /mnt/c/wslconfig/bzImage_$version
 cp .config ../
 if [[ $version == *"rc"* ]]; then
