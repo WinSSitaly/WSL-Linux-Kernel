@@ -20,14 +20,19 @@ fi
 wget https://github.com/WinSSitaly/WSL-Linux-Kernel/raw/main/.wslconfig -O .wslconfig
 
 cp .wslconfig /mnt/c/wslconfig/.wslconfig
-read -p "Enter version number :  " version
 
-pre=${version:0:1}
-	if [[ $pre == "5" ]]; then
-		post=${version:2:2}
-	else
-		post=${version:2:1}
-	fi
+read -p "Enter version number :  " version
+	let firstdot=`expr index $version . - 1`
+		pre=${version:0:$firstdot}
+		trimmed=${version#$pre*.}
+	let seconddot=`expr index $trimmed . - 1`
+		if [ $seconddot -gt 0 ]; then
+			post=${trimmed:0:$seconddot}
+		else
+			post=$trimmed
+		fi
+
+
 if [ -f "/mnt/c/wslconfig/bzImage-test" ]; then
 echo "already exist"
 mv /mnt/c/wslconfig/bzImage-test /mnt/c/wslconfig/bzImage_pre-$version
@@ -66,7 +71,7 @@ cd $DIR
 cd linux-$version
 cp ../.config ./
 make clean
-make KCONFIG_CONFIG=.config -j32
+make KCONFIG_CONFIG=.config -j16
 cp arch/x86/boot/bzImage /mnt/c/wslconfig/bzImage_$version
 cp .config ../
 if [[ $version == *"rc"* ]]; then
@@ -74,7 +79,7 @@ if [[ $version == *"rc"* ]]; then
 	cp .config $DIRgh/WSL-Linux-Kernel/mywsl-configrc
 else
 	cp .config /mnt/c/wslconfig/mywsl-config$pre$post
-	#cp .config $DIRgh/WSL-Linux-Kernel/mywsl-config$pre$post
+	cp .config $DIRgh/WSL-Linux-Kernel/mywsl-config$pre$post
 	echo $DIRgh
 	echo $DIRgh/WSL-Linux-Kernel
 fi
