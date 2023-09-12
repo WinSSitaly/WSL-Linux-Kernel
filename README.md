@@ -29,7 +29,7 @@ I just prepare different config file to compile different version kernel
 - mywsl-config64 is made for stable release 6.4.X
 - mywsl-config65 is made for stable release 6.5.X
 
-- mywsl-configrc is made for next release candidate 6.6-rc
+- mywsl-configrc is made for release candidate 6.6-rc
 
 - mywsl-configlt is made for longterm release 5.10.X
 
