@@ -29,8 +29,8 @@ I just prepare different config file to compile different version kernel
 - mywsl-config64-EOL is made for stable release 6.4.X EOL
 - mywsl-config65-EOL is made for stable release 6.5.X EOL
 - mywsl-config66 is made for stable release 6.6.X
-
-- mywsl-configrc is made for next release candidate 6.7-rc
+- mywsl-config66 is made for stable release 6.7.X
+- mywsl-configrc is made for next release candidate 6.8-rc
 
 - mywsl-configlt is made for longterm release 5.10.X
 
