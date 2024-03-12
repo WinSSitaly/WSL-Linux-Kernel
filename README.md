@@ -30,9 +30,10 @@ I just prepare different config file to compile different version kernel
 - mywsl-config65-EOL is made for stable release 6.5.X EOL
 - mywsl-config66 is made for stable release 6.6.X
 - mywsl-config67 is made for stable release 6.7.X
-- mywsl-configrc is made for release candidate 6.8-rc
+- mywsl-config67 is made for stable release 6.8.X
+- mywsl-configrc is made for next release candidate
 
-- mywsl-configlt is made for longterm release 5.10.X
+- mywsl-configlt is made for longterm release 5.15.X
 
 After compile kernel
 if you want to add modules
