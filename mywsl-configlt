@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.15.156 Kernel Configuration
+# Linux/x86 5.15.157 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0"
 CONFIG_CC_IS_GCC=y
@@ -1155,6 +1155,7 @@ CONFIG_NF_TABLES_INET=y
 # CONFIG_NFT_TPROXY is not set
 # CONFIG_NFT_SYNPROXY is not set
 # CONFIG_NF_FLOW_TABLE is not set
+CONFIG_NF_FLOW_TABLE_PROCFS=y
 CONFIG_NETFILTER_XTABLES=y
 CONFIG_NETFILTER_XTABLES_COMPAT=y
 
