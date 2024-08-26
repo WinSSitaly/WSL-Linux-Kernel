@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 6.11.0-rc2 Kernel Configuration
+# Linux/x86 6.11.0-rc5 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0"
 CONFIG_CC_IS_GCC=y
@@ -3542,6 +3542,7 @@ CONFIG_OVERLAY_FS=y
 #
 CONFIG_NETFS_SUPPORT=y
 # CONFIG_NETFS_STATS is not set
+# CONFIG_NETFS_DEBUG is not set
 CONFIG_FSCACHE=y
 # CONFIG_FSCACHE_STATS is not set
 # CONFIG_CACHEFILES is not set
