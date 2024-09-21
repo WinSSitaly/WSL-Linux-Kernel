@@ -22,7 +22,6 @@ I just prepare different config file to compile different version kernel
 - myswl-config518-EOL is made for stable release 5.18.X EOL
 - mywsl-config519-EOL is made for stable release 5.19.X EOL
 - mywsl-config60-EOL is made for stable release 6.0.X EOL
-
 - mywsl-config61 is made for stable release 6.1.X
 - mywsl-config62-EOL is made for stable release 6.2.X EOL
 - mywsl-config63-EOL is made for stable release 6.3.X EOL
@@ -33,7 +32,10 @@ I just prepare different config file to compile different version kernel
 - mywsl-config68-EOL is made for stable release 6.8.X EOL
 - mywsl-config69-EOL is made for stable release 6.9.X EOL
 - mywsl-config610 is made for stable release 6.10.X
-- mywsl-configrc is made for next release candidate 6.11-rc
+- mywsl-config610 is made for stable release 6.11.X
+
+
+- mywsl-configrc is made for next release candidate 6.12-rc
 
 - mywsl-configlt is made for longterm release 5.15.X
 
