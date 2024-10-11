@@ -31,9 +31,8 @@ I just prepare different config file to compile different version kernel
 - mywsl-config67-EOL is made for stable release 6.7.X EOL
 - mywsl-config68-EOL is made for stable release 6.8.X EOL
 - mywsl-config69-EOL is made for stable release 6.9.X EOL
-- mywsl-config610 is made for stable release 6.10.X
+- mywsl-config610-EOL is made for stable release 6.10.X EOL
 - mywsl-config611 is made for stable release 6.11.X
-
 
 - mywsl-configrc is made for release candidate 6.12-rc
 
