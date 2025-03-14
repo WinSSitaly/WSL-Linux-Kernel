@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.10.231 Kernel Configuration
+# Linux/x86 5.10.235 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0"
 CONFIG_CC_IS_GCC=y
@@ -2299,6 +2299,7 @@ CONFIG_PMC_ATOM=y
 # CONFIG_CHROME_PLATFORMS is not set
 # CONFIG_MELLANOX_PLATFORM is not set
 CONFIG_HAVE_CLK=y
+CONFIG_CLKDEV_LOOKUP=y
 CONFIG_HAVE_CLK_PREPARE=y
 CONFIG_COMMON_CLK=y
 # CONFIG_HWSPINLOCK is not set
