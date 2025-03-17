@@ -1,3 +1,4 @@
+#last update San Patrick 17 03 2025
 #!/bin/bash
 DIRWSL="/mnt/c/wslconfig"
 DIR="$PWD"
