@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 6.15.2 Kernel Configuration
+# Linux/x86 6.15.3 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0"
 CONFIG_CC_IS_GCC=y
@@ -2742,7 +2742,6 @@ CONFIG_DRM_GEM_SHMEM_HELPER=y
 # CONFIG_DRM_AMDGPU is not set
 # CONFIG_DRM_NOUVEAU is not set
 # CONFIG_DRM_I915 is not set
-# CONFIG_DRM_XE is not set
 CONFIG_DRM_VGEM=y
 # CONFIG_DRM_VKMS is not set
 # CONFIG_DRM_VMWGFX is not set
