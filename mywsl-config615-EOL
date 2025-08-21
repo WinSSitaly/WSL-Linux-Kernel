@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 6.15.6 Kernel Configuration
+# Linux/x86 6.15.11 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0"
 CONFIG_CC_IS_GCC=y
@@ -3286,6 +3286,7 @@ CONFIG_VHOST_NET=y
 # CONFIG_VHOST_VSOCK is not set
 CONFIG_VHOST_VDPA=y
 # CONFIG_VHOST_CROSS_ENDIAN_LEGACY is not set
+CONFIG_VHOST_ENABLE_FORK_OWNER_CONTROL=y
 
 #
 # Microsoft Hyper-V guest support
