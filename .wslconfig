@@ -4,3 +4,6 @@ kernel = c:\\wslconfig\\bzImage-test
 guiApplications=false
 
 #safeMode=true
+
+#debugConsole=true
+
