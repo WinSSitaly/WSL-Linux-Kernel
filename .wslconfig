@@ -1,2 +1,6 @@
 [wsl2]
 kernel = c:\\wslconfig\\bzImage-test
+
+guiApplications=false
+
+#safeMode=true
